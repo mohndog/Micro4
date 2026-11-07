@@ -1,0 +1,23 @@
+p.first::first-letter {
+  font-size: 250%;
+}
+
+main p:first-child {
+  font-style: italic;
+}
+
+:root {
+  --fancy-color:#0077b6;
+}
+
+h1, h2 {
+  color: var(--fancy-color);
+}
+
+p q  {
+  font-variant: normal;
+}
+
+main>p {
+  line-height: 1.8;
+}
